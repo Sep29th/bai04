@@ -1,0 +1,42 @@
+.color-red {
+  color: red;
+}
+#color-green {
+  color: green;
+}
+.background-color-green {
+  background-color: green;
+  width: 200px;
+  height: 100px;
+}
+.background-image {
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.box-model-1 {
+  color: white;
+  padding: 30px;
+  background-color: green;
+  text-align: center;
+  border: 5px #000000 solid;
+}
+.box-model-2 {
+  color: white;
+  background-clip: padding-box;
+  background-color: red;
+  text-align: right;
+  padding: 30px;
+  border: 10px dashed #cccccc;
+}
+.fonts {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+i {
+  font-size: 30px;
+}
